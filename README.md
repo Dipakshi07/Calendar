@@ -1,16 +1,74 @@
-# React + Vite
+# 📅 Wall Calendar App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive **Wall Calendar UI** built using React, inspired by a physical wall calendar design. This project focuses on clean aesthetics, smooth user interaction, and responsive layout.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* 🖼 **Wall Calendar Aesthetic**
+  Elegant UI with a hero image and paper-like layout.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 📅 **Date Range Selection**
+  Select start and end dates with clear visual highlighting.
 
-## Expanding the ESLint configuration
+* 📝 **Notes Section**
+  Add and save notes (stored in localStorage).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* 📱 **Responsive Design**
+  Works seamlessly on desktop and mobile devices.
+
+* 🎨 **Smooth Animations**
+  Subtle hover and transition effects for better UX.
+
+---
+
+## 🛠 Tech Stack
+
+* React.js
+* date-fns
+* Framer Motion
+* CSS (External Styling)
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+ ├── CalendarApp.jsx
+ ├── CalendarApp.css
+```
+
+---
+
+## ⚙️ Installation
+
+```bash
+npm install
+npm install date-fns framer-motion
+npm run dev
+```
+
+---
+
+## 📸 Preview
+
+A visually appealing wall-style calendar with interactive date selection and notes.
+
+---
+
+## 💡 Future Enhancements
+
+* 📌 Notes per selected date range
+* 🔄 Calendar flip animation
+* 🌙 Dark/light theme support
+* 🎉 Holiday indicators
+
+---
+
+## 👩‍💻 Author
+
+Developed by **Dipakshi Ojha**
+
+---
